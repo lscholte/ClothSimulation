@@ -1,12 +1,8 @@
 #include "Cloth.hpp"
 #include "Shader.hpp"
 #include "Asset.hpp"
-#include <iostream>
 #include <atlas/utils/GUI.hpp>
 #include <stb/stb_image.h>
-
-#include "Mass.hpp"
-
 
 Cloth::Cloth() :
     mMass(0.01f)

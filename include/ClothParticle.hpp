@@ -4,7 +4,6 @@
 #include <atlas/utils/Geometry.hpp>
 #include <set>
 #include <vector>
-#include "Mass.hpp"
 
 class ClothParticle;
 

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 
-project(SpringMassSystem LANGUAGES CXX)
+project(ClothSimulation LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_BUILD_TYPE Debug)
@@ -14,8 +14,6 @@ set(ASSET_DIR "${PROJECT_SOURCE_DIR}/assets")
 
 # Sets a path to code that will be automatically generated
 set(GENERATED_DIR "${PROJECT_SOURCE_DIR}/generated")
-
-#include("${ATLAS_CONFIG_DIR}/Compiler.cmake")
 
 add_subdirectory(${ATLAS_DIR})
 add_subdirectory(${INCLUDE_DIR})
@@ -33,4 +31,4 @@ source_group(include FILES ${INCLUDE_FILES})
 source_group(source FILES ${SOURCE_FILES})
 source_group(shaders FILES ${SHADER_FILES})
 
-add_executable(springMassSystem ${SOURCE_FILES} ${INCLUDE_FILES} ${SHADER_FILES})
+add_executable(clothSimulation ${SOURCE_FILES} ${INCLUDE_FILES} ${SHADER_FILES})
