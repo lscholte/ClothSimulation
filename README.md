@@ -19,3 +19,6 @@ Next, create an empty build directory wherever you like. It is suggested to crea
 If the build was successful, then you will have an executable named `clothSimulation` in your build directory. Execute it with
 
 `./clothSimulation`
+
+# Demo
+See <https://www.youtube.com/watch?v=BeD6IcdfaYY> for a video demo of the cloth
